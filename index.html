@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="channels4_profile.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    hr {
+      border: 1px solid black;
+    }
+    .navbar-brand img {
+      margin-top: -15px;
+      border-radius: 12px;
+      height: 50px;
+    }
+    .carousel-inner img {
+      width: 100%;
+      height: auto;
+    }
+    .jumbotron {
+      background-color: rgb(228, 247, 248);
+    }
+    .jumbotron h1, .jumbotron p {
+      margin: 0;
+    }
+    .col-sm-4 img, .col-md-7 img, .col-md-4 img {
+      width: 100%;
+      height: auto;
+    }
+    .col-md-4 {
+      font-size: large;
+      margin-top: 50px;
+    }
+    .col-md-5 {
+      font-size: large;
+      margin-top: 50px;
+    }
+    .footer {
+      width: 100%;
+      height: 20vh;
+      background-color: #27292c;
+      color: #fdfdfd;
+      padding-top: 20px;
+    }
+    .footer .social-icons {
+      margin-top: 20px;
+    }
+    .footer .social-icons a {
+      color: #fdfdfd;
+      margin: 0 10px;
+      font-size: 24px;
+    }
+  </style>
+</head>
+<body style="background-color: rgb(228, 247, 248);">
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"><img src="channels4_profile.jpg" alt="Logo"></a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">About <span class="caret"></span></a>
+          <ul class="dropdown-menu" style="background-color: rgb(228, 247, 248);">
+            <li><a href="Team.html">Team</a></li>
+            <li><a href="Course.html">Course</a></li>
+            <li><a href="Terms.html">Policy</a></li>
+          </ul>
+        </li>
+        <li><a href="Contactus.html">Contact Us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="sign up.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item">
+          <img  class="image-fluid"   src="TOPS_logo2F-2.png"  alt="Chicago">
+        </div>
+        <div class="item active">
+          <img  class="image-fluid" src="35657.jpg" alt="Los Angeles">
+        </div>
+        <div class="item">
+          <img  class="image-fluid" src="85390.png"   alt="New York">
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="jumbotron text-center">
+    <h1>TOPS Placement Program</h1>
+    <p>Utilize our excellent connections with more than 3000 firms to get hired by the best company of your choice.</p>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3><img src="download.png" alt=""></h3>
+        <p>An open source–centric collection of technologies that uses JavaScript for both the browser and server sides of a web application.</p>
+      </div>
+      <div class="col-sm-4">
+        <h3><img src="it-career-path-slide1.png" alt=""></h3>
+        <p>Start as an analyst or administrator, and then work your way up to being a network or systems engineer or architect.</p>
+      </div>
+      <div class="col-sm-4">
+        <h3><img src="download.jpg" alt=""></h3>
+        <p>Creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app.</p>
+      </div>
+    </div>
+    <br><br>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <img src="download-1.jpg" alt="">
+        </div>
+        <div class="col-md-5">
+          <p>Back-end developers are the experts who build and maintain the mechanisms that process data and perform actions on websites. Unlike front-end developers, who control everything you can see on a website, back-end developers are involved in data storage, security, and other server-side functions that you cannot see.</p>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <p>A graphics programmer creates software and applications for developing images and animation on a computer. Your duties can focus on programs for computer-aided design and rendering, animation, image manipulation, photo editing, or video game design.</p>
+        </div>
+        <div class="col-md-7">
+          <img src="download-2.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>Top Tutorials</h3>
+          <p>HTML Tutorial<br>
+            CSS Tutorial<br>
+            JavaScript Tutorial<br>
+            Python Tutorial<br>
+            Bootstrap Tutorial<br>
+            PHP Tutorial<br>
+            Java Tutorial<br>
+            C++ Tutorial<br>
+            jQuery Tutorial
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Top References</h3>
+          <p>HTML Reference<br>
+            CSS Reference<br>
+            JavaScript Reference<br>
+            SQL Reference<br>
+            Python Reference<br>
+            Bootstrap Reference<br>
+            PHP Reference<br>
+            HTML Colors<br>
+            Java Reference<br>
+            Angular Reference<br>
+            jQuery Reference
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Get Certified</h3>
+          <p>HTML Certificate<br>
+            CSS Certificate<br>
+            JavaScript Certificate<br>
+            Front End Certificate<br>
+            SQL Certificate<br>
+            Python Certificate<br>
+            PHP Certificate<br>
+            jQuery Certificate<br>
+            Java Certificate<br>
+            C++ Certificate<br>
+            C Certificate<br>
+            XML Certificate
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer text-center">
+    <div class="social-icons">
+      <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+    </div>
+  </div>
+
+</body>
+</html>
